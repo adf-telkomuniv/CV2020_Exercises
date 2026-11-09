@@ -479,168 +479,1060 @@
         "Machine translation bridges communication gaps across different human cultures.",
         "Terjemahan mesin menjembatani kesenjangan komunikasi di berbagai budaya manusia."
     ],
-	["hello, how are you?", "halo, bagaimana kabar kamu?"],
-    ["what is your name?", "siapa nama kamu?"],
-    ["i am learning generative ai.", "saya sedang belajar ai generatif."],
-    ["this machine learning model is powerful.", "model pembelajaran mesin ini sangat kuat."],
-    ["artificial intelligence will change the world.", "kecerdasan buatan akan mengubah dunia."],
-    ["deep learning architectures use neural networks.", "arsitektur pembelajaran mendalam menggunakan jaringan saraf."],
-    ["attention mechanisms help focus on words.", "mekanisme perhatian membantu fokus pada kata-kata."],
-    ["the transformer architecture is based on self-attention.", "arsitektur transformer didasarkan pada perhatian diri."],
-    ["pytorch is an excellent framework for deep learning.", "pytorch adalah kerangka kerja yang sangat baik untuk pembelajaran mendalam."],
-    ["natural language processing is fun.", "pemrosesan bahasa alami itu menyenangkan."],
-    ["can you translate this long sentence for me?", "bisakah kamu menerjemahkan kalimat panjang ini untuk saya?"],
-    ["computers can understand human language now.", "komputer dapat memahami bahasa manusia sekarang."],
-    ["we train models to generate realistic text.", "kita melatih model untuk menghasilkan teks yang realistis."],
-    ["the student solves the programming exercise quickly.", "mahasiswa menyelesaikan latihan pemrograman dengan cepat."],
-    ["python is the main language for ai development.", "python adalah bahasa utama untuk pengembangan ai."],
-    ["recurrent neural networks process data sequentially.", "jaringan saraf berulang memproses data secara berurutan."],
-    ["multi-head attention allows joint information processing.", "perhatian multi-kepala memungkinkan pemrosesan informasi bersama."],
-    ["positional embeddings provide order to transformers.", "sematan posisi memberikan urutan pada transformer."],
-    ["the encoder creates a dense representation of input.", "encoder membuat representasi padat dari input."],
-    ["the decoder generates tokens one by one.", "decoder menghasilkan token satu demi satu."],
-    ["we use bleu score to evaluate translation quality.", "kita menggunakan skor bleu untuk mengevaluasi kualitas translasi."],
-    ["loss functions calculate the error of the model.", "fungsi kerugian menghitung kesalahan dari model."],
-    ["gradient descent updates the weights during training.", "penurunan gradien memperbarui bobot selama pelatihan."],
-    ["learning rate control is essential for convergence.", "kontrol tingkat pembelajaran sangat penting untuk konvergensi."],
-    ["the university offers advanced computer science courses.", "universitas menawarkan kursus ilmu komputer tingkat lanjut."],
-    ["generative models learn the underlying data distribution.", "model generatif mempelajari distribusi data yang mendasarinya."],
-    ["large language models require massive computation power.", "model bahasa besar membutuhkan daya komputasi yang masif."],
-    ["tokenization splits text into smaller subwords or words.", "tokenisasi memecah teks menjadi subkata atau kata yang lebih kecil."],
-    ["vocabulary mapping converts tokens into numerical indices.", "pemetaan kosakata mengubah token menjadi indeks numerik."],
-    ["padding guarantees uniform tensor sizes inside batches.", "bantalan menjamin ukuran tensor yang seragam di dalam kelompok."],
-    ["the teacher explains the concept of dot product attention.", "guru menjelaskan konsep perhatian produk titik."],
-    ["feed-forward networks project features into higher dimensions.", "jaringan umpan maju memproyeksikan fitur ke dimensi yang lebih tinggi."],
-    ["residual connections help mitigate the vanishing gradient problem.", "koneksi residual membantu mengurangi masalah gradien yang hilang."],
-    ["layer normalization stabilizes hidden states across layers.", "normalisasi lapisan menstabilkan keadaan tersembunyi di seluruh lapisan."],
-    ["softmax functions normalize attention scores into weights.", "fungsi softmax menormalisasi skor perhatian menjadi bobot."],
-    ["sequence to sequence models are widely used for translation.", "model urutan ke urutan banyak digunakan untuk translasi."],
-    ["context vectors accumulate weighted source information.", "vektor konteks mengumpulkan informasi sumber yang berbobot."],
-    ["bidirectional rnn captures context from both sides.", "rnn dua arah menangkap konteks dari kedua sisi."],
-    ["the query vector matches against key vectors.", "vektor kueri dicocokkan dengan vektor kunci."],
-    ["value vectors carry the actual semantic meanings.", "vektor nilai membawa makna semantik yang sebenarnya."],
-    ["training neural networks requires patience and resources.", "melatih jaringan saraf membutuhkan kesabaran dan sumber daya."],
-    ["evaluation datasets should be separate from training data.", "kumpulan data evaluasi harus terpisah dari data pelatihan."],
-    ["overfitting happens when a model memorizes data.", "overfitting terjadi ketika model menghafal data."],
-    ["dropout regularizes models by dropping units randomly.", "dropout meregulasi model dengan menjatuhkan unit secara acak."],
-    ["epoch means one full pass over the dataset.", "epoch berarti satu putaran penuh atas kumpulan data."],
-    ["mini batches improve memory optimization and efficiency.", "kelompok kecil meningkatkan optimalisasi memori dan efisiensi."],
-    ["cross entropy loss is the standard for classification.", "kerugian entropi silang adalah standar untuk klasifikasi."],
-    ["the test accuracy improves steady over epochs.", "akurasi pengujian meningkat secara stabil selama epoch."],
-    ["we must evaluate our translation system qualitatively.", "kita harus mengevaluasi sistem translasi kita secara kualitatif."],
-    ["different languages have different grammatical structures.", "bahasa yang berbeda memiliki struktur tata bahasa yang berbeda."],
-    ["indonesian grammar does not change for tenses.", "tata bahasa indonesia tidak berubah untuk waktu kalanya."],
-    ["english verbs alter based on singular or plural subjects.", "kata kerja bahasa inggris berubah berdasarkan subjek tunggal atau jamak."],
-    ["translating idioms is very difficult for simple models.", "menerjemahkan ungkapan sangat sulit untuk model sederhana."],
-    ["word embeddings project words into continuous vector spaces.", "sematan kata memproyeksikan kata ke dalam ruang vektor kontinu."],
-    ["dense representations keep semantic similarities between words.", "representasi padat menjaga kemiripan semantik antar kata."],
-    ["cosine similarity measures the angle between vectors.", "kemiripan kosinus mengukur sudut antara vektor."],
-    ["high-dimensional vectors capture fine-grained relations.", "vektor berdimensi tinggi menangkap hubungan yang terperinci."],
-    ["the network converges when the loss stops decreasing.", "jaringan konvergen ketika kerugian berhenti menurun."],
-    ["an optimization algorithm like adam adjusts parameters.", "algoritma pengoptimalan seperti adam menyesuaikan parameter."],
-    ["hyperparameter tuning optimizes accuracy and inference speed.", "penyetelan hiperparameter mengoptimalkan akurasi dan kecepatan inferensi."],
-    ["attention matrices can be plotted as heatmaps.", "matriks perhatian dapat diplot sebagai peta panas."],
-    ["diagonal attention patterns indicate word-to-word alignment.", "pola perhatian diagonal menunjukkan penyelarasan kata-ke-kata."],
-    ["he loves reading books about artificial intelligence.", "dia suka membaca buku tentang kecerdasan buatan."],
-    ["she writes code in python every single day.", "dia menulis kode dalam python setiap hari."],
-    ["they are designing a new neural network architecture.", "mereka sedang merancang arsitektur jaringan saraf baru."],
-    ["we build intelligent systems to help humanity solve problems.", "kita membangun sistem cerdas untuk membantu umat manusia menyelesaikan masalah."],
-    ["i like to drink hot coffee while writing python code.", "saya suka minum kopi hangat saat menulis kode python."],
-    ["the sunset in Bali looks absolutely stunning tonight.", "matahari terbenam di Bali terlihat sangat memukau malam ini."],
-    ["we need to collect clean dataset for translation models.", "kita perlu mengumpulkan kumpulan data yang bersih untuk model translasi."],
-    ["an open source repository allows collaboration worldwide.", "repositori sumber terbuka memungkinkan kolaborasi di seluruh dunia."],
-    ["science progresses through iterative research and experimentation.", "sains berkembang melalui penelitian dan eksperimen yang berulang."],
-    ["understanding mathematics is crucial for deep learning engineers.", "memahami matematika sangat penting bagi insinyur pembelajaran mendalam."],
-    ["matrix multiplication is the core operation of transformers.", "perkalian matriks adalah operasi inti dari transformer."],
-    ["hardware accelerators speed up tensor computations immensely.", "akselerator perangkat keras mempercepat komputasi tensor secara luar biasa."],
-    ["cloud computing offers accessible infrastructure for developers.", "komputasi awan menawarkan infrastruktur yang dapat diakses oleh pengembang."],
-    ["open ai models can complete creative writing challenges.", "model ai terbuka dapat menyelesaikan tantangan menulis kreatif."],
-    ["ethics in artificial intelligence is heavily discussed now.", "etika dalam kecerdasan buatan sedang banyak didiskusikan sekarang."],
-    ["data privacy must be guaranteed by system designers.", "privasi data harus dijamin oleh perancang sistem."],
-    ["bias in dataset leads to unfair model predictions.", "bias dalam kumpulan data menyebabkan prediksi model yang tidak adil."],
-    ["explainable ai helps humans understand complex models.", "ai yang dapat dijelaskan membantu manusia memahami model yang kompleks."],
-    ["the attention map visualizes internal representations vividly.", "peta perhatian memvisualisasikan representasi internal dengan jelas."],
-    ["this laboratory conducts advanced research in robotics.", "laboratorium ini mengadakan penelitian tingkat lanjut dalam robotika."],
-    ["autonomous vehicles navigate roads using computer vision.", "kendaraan otonom menavigasi jalan menggunakan visi komputer."],
-    ["speech recognition converts spoken voice into clean text.", "pengenalan suara mengubah suara lisan menjadi teks bersih."],
-    ["reinforcement learning learns policies through rewards and punishments.", "pembelajaran penguatan mempelajari kebijakan melalui hadiah dan hukuman."],
-    ["supervised learning requires labeled inputs and ground truth targets.", "pembelajaran yang diawasi memerlukan input berlabel dan target kebenaran dasar."],
-    ["unsupervised learning finds hidden patterns inside unlabeled datasets.", "pembelajaran tanpa pengawasan menemukan pola tersembunyi di dalam kumpulan data tanpa label."],
-    ["transfer learning reuses pre-trained models for new tasks.", "pembelajaran transfer menggunakan kembali model pra-latih untuk tugas-tugas baru."],
-    ["fine tuning adapts a generic model to specific domains.", "penyetelan halus menyesuaikan model generik ke domain tertentu."],
-    ["prompt engineering alters outputs by changing textual descriptions.", "rekayasa prompt mengubah output dengan mengubah deskripsi tekstual."],
-    ["in-context learning allows models to learn from examples.", "pembelajaran dalam konteks memungkinkan model belajar dari contoh."],
-    ["zero shot translation works without explicit parallel data training.", "translasi tembakan nol berfungsi tanpa pelatihan data paralel yang eksplisit."],
-    ["few shot prompting increases generation accuracy significantly.", "pemicuan beberapa tembakan meningkatkan akurasi generasi secara signifikan."],
-    ["the vocabulary size impacts the computational complexity directly.", "ukuran kosakata berdampak langsung pada kompleksitas komputasi."],
-    ["masking ensures the decoder does not see future tokens.", "penyembunyian memastikan decoder tidak melihat token masa depan."],
-    ["the query matrix is multiplied by the transposed key matrix.", "matriks kueri dikalikan dengan matriks kunci yang ditransposisikan."],
-    ["scaling factors prevent the dot product from growing large.", "faktor penskalaan mencegah produk titik tumbuh menjadi besar."],
-    ["teachers evaluate students through exercises and practical assignments.", "guru mengevaluasi siswa melalui latihan dan tugas praktis."],
-    ["generative adversarial networks use two competing neural models.", "jaringan permusuhan generatif menggunakan dua model saraf yang bersaing."],
-    ["diffusion models generate realistic high-resolution images smoothly.", "model difusi menghasilkan gambar beresolusi tinggi yang realistis dengan lancar."],
-    ["learning architectures evolve constantly through international community efforts.", "arsitektur pembelajaran berkembang secara konstan melalui upaya komunitas internasional."],
-    ["the final project requires students to implement custom networks.", "proyek akhir mengharuskan mahasiswa untuk menerapkan jaringan kustom."],
-    ["Artificial intelligence is transforming how we write computer code.", "Kecerdasan buatan sedang mengubah cara kita menulis kode komputer."],
-    ["Generative models can create realistic images from text prompts.", "Model generatif dapat membuat gambar realistis dari perintah teks."],
-    ["The neural network requires a large corpus of text for training.", "Jaringan saraf membutuhkan korpus teks yang besar untuk pelatihan."],
-    ["Deep learning algorithms discover complex structures in high-dimensional data.", "Algoritma pembelajaran mendalam menemukan struktur kompleks dalam data berdimensi tinggi."],
-    ["Large language models are trained on massive internet datasets.", "Model bahasa besar dilatih pada dataset internet yang sangat besar."],
-    ["The attention mechanism allows the model to focus on relevant words.", "Mekanisme atensi memungkinkan model untuk fokus pada kata-kata yang relevan."],
-    ["Transformers replaced recurrent networks for natural language processing tasks.", "Transformer menggantikan jaringan berulang untuk tugas pemrosesan bahasa alami."],
-    ["Self-attention calculates the relationship between all words in a sentence.", "Self-attention menghitung hubungan antara semua kata dalam sebuah kalimat."],
-    ["Positional encoding injects information about the order of tokens.", "Pengodean posisi menyuntikkan informasi tentang urutan token."],
-    ["The encoder processes the input sequence and creates a representation.", "Encoder memproses urutan masukan dan membuat sebuah representasi."],
-    ["The decoder generates the target sequence token by token.", "Decoder menghasilkan urutan target token demi token."],
-    ["Multi-head attention allows the model to jointly attend to information.", "Multi-head attention memungkinkan model untuk secara bersamaan memperhatikan informasi."],
-    ["We use dropout to prevent the model from overfitting the data.", "Kami menggunakan dropout to mencegah model mengalami overfitting pada data."],
-    ["The learning rate determines the step size during optimization.", "Tingkat pembelajaran menentukan ukuran langkah selama optimasi."],
-    ["Gradient descent minimizes the loss function during neural network training.", "Gradient descent meminimalkan fungsi kerugian selama pelatihan jaringan saraf."],
-    ["Stochastic gradient descent updates parameters using a small batch.", "Stochastic gradient descent memperbarui parameter menggunakan batch kecil."],
-    ["The Adam optimizer dynamically adjusts the learning rate for parameters.", "Optimizer Adam menyesuaikan tingkat pembelajaran secara dinamis untuk parameter."],
-    ["Cross-entropy loss measures the performance of a classification model.", "Kerugian cross-entropy mengukur kinerja model klasifikasi."],
-    ["Perplexity evaluates how well a probability distribution predicts a sample.", "Perpleksitas mengevaluasi seberapa baik distribusi probabilitas memprediksi suatu sampel."],
-    ["The BLEU score evaluates the quality of machine-translated text.", "Skor BLEU mengevaluasi kualitas teks hasil terjemahan mesin."],
-    ["Tokenization splits a continuous string of text into individual units.", "Tokenisasi memecah string teks berkelanjutan menjadi unit-unit individu."],
-    ["Byte-pair encoding is a popular subword tokenization algorithm.", "Pengodean byte-pair adalah algoritma tokenisasi subkata yang populer."],
-    ["The vocabulary size determines the number of unique tokens.", "Ukuran kosakata menentukan jumlah token unik."],
-    ["Out-of-vocabulary words are mapped to an unknown token symbol.", "Kata-kata di luar kosakata dipetakan ke simbol token yang tidak diketahui."],
-    ["Padding tokens ensure that all sequences in a batch have equal length.", "Token padding memastikan bahwa semua urutan dalam satu batch memiliki panjang yang sama."],
-    ["The sequence-to-sequence model maps an input sequence to an output sequence.", "Model sequence-to-sequence memetakan urutan masukan ke urutan keluaran."],
-    ["Recurrent neural networks process text sequentially from left to right.", "Jaringan saraf berulang memproses teks secara berurutan dari kiri ke kanan."],
-    ["Long short-term memory networks solve the vanishing gradient problem.", "Jaringan memori jangka pendek panjang memecahkan masalah gradien menghilang."],
-    ["Gated recurrent units are a simpler variant of standard LSTMs.", "Gated recurrent units adalah varian yang lebih sederhana dari LSTM standar."],
-    ["Teacher forcing uses the actual target output during training iterations.", "Teacher forcing menggunakan keluaran target yang sebenarnya selama iterasi pelatihan."],
-    ["Greedy decoding selects the token with the highest probability at each step.", "Greedy decoding memilih token dengan probabilitas tertinggi pada setiap langkah."],
-    ["Beam search expands the top hypothesis tracks to find better sequences.", "Beam search memperluas jalur hipotesis teratas untuk menemukan urutan yang lebih baik."],
-    ["Temperature scaling controls the randomness of the generated text output.", "Skala temperatur mengontrol keacakan dari keluaran teks yang dihasilkan."],
-    ["Top-k sampling restricts the next token choices to the most likely options.", "Sampling top-k membatasi pilihan token berikutnya ke opsi yang paling mungkin."],
-    ["Top-p sampling selects tokens from a dynamic nucleus of probability.", "Sampling top-p memilih token dari nukleus probabilitas yang dinamis."],
-    ["Pre-training exposes a large model to unlabeled text data.", "Pra-pelatihan memaparkan model besar pada data teks tanpa label."],
-    ["Fine-tuning adapts a pre-trained model to a specific downstream task.", "Fine-tuning menyesuaikan model pra-latih untuk tugas hilir tertentu."],
-    ["Prompt engineering is the art of structuring text inputs for models.", "Prompt engineering adalah seni menyusun masukan teks untuk model."],
-    ["Few-shot prompting provides examples of the target task inside the prompt.", "Few-shot prompting menyediakan contoh tugas target di dalam prompt."],
-    ["Zero-shot learning tests the model on a task without any examples.", "Pembelajaran zero-shot menguji model pada suatu tugas tanpa contoh apa pun."],
-    ["Reinforcement learning from human feedback aligns models with human preferences.", "Pembelajaran penguatan dari umpan balik manusia menyelaraskan model dengan preferensi manusia."],
-    ["Direct preference optimization provides a simpler alternative to classic reinforcement learning.", "Optimasi preferensi langsung memberikan alternatif yang lebih sederhana untuk pembelajaran penguatan klasik."],
-    ["Parameter-efficient fine-tuning reduces the cost of adapting large models.", "Fine-tuning efisien parameter mengurangi biaya adaptasi model besar."],
-    ["Low-rank adaptation injects trainable rank decomposition matrices into layers.", "Adaptasi pangkat rendah menyuntikkan matriks dekomposisi pangkat yang dapat dilatih ke dalam lapisan."],
-    ["Quantization compresses neural network weights into lower precision formats.", "Kuantisasi mengompresi bobot jaringan saraf ke dalam format presisi yang lebih rendah."],
-    ["Model distillation transfers knowledge from a large model to a smaller one.", "Distilasi model mentransfer pengetahuan dari model besar ke model yang lebih kecil."],
-    ["Retrieval-augmented generation connects language models to external data sources.", "Retrieval-augmented generation menghubungkan model bahasa ke sumber data eksternal."],
-    ["Vector databases store document embeddings for fast similarity search queries.", "Database vektor menyimpan embedding dokumen untuk kueri pencarian kemiripan yang cepat."],
-    ["Cosine similarity measures the angle between two multi-dimensional vectors.", "Kemiripan kosinus mengukur sudut antara dua vektor multi-dimensi."],
-    ["Semantic search understands the intent and contextual meaning of queries.", "Pencarian semantik memahami maksud dan makna kontekstual dari kueri."],
-    ["Hallucination occurs when a generative model creates incorrect facts.", "Halusinasi terjadi ketika model generatif membuat fakta yang salah."],
-    ["Bias in training data can lead to unfair model predictions.", "Bias dalam data pelatihan dapat menyebabkan prediksi model yang tidak adil."],
-    ["Ethical AI development requires transparency and careful data curation.", "Pengembangan AI yang etis memerlukan transparansi dan kurasi data yang cermat."],
-    ["Data augmentation artificially increases the size of a training dataset.", "Augmentasi data secara artifisial meningkatkan ukuran dataset pelatihan."],
-    ["Transfer learning applies knowledge from one domain to another domain.", "Transfer learning menerapkan pengetahuan dari satu domain ke domain lainnya."],
-    ["Context window determines the maximum number of tokens a model reads.", "Jendela konteks menentukan jumlah maksimum token yang dibaca oleh model."],
-    ["Linear layers transform features using matrix multiplication and biases.", "Lapisan linier mengubah fitur menggunakan perkalian matriks dan bias."],
-    ["Activation functions introduce non-linear properties into the neural network.", "Fungsi aktivasi memperkenalkan sifat non-linier ke dalam jaringan saraf."],
-    ["The softmax function converts raw logits into a probability distribution.", "Fungsi softmax mengubah logit mentah menjadi distribusi probabilitas."],
-    ["Layer normalization stabilizes the hidden states across training batches.", "Normalisasi lapisan menstabilkan keadaan tersembunyi di seluruh batch pelatihan."],
-    ["Residual connections allow gradients to flow directly through deep networks.", "Koneksi residual memungkinkan gradien mengalir secara langsung melalui jaringan yang dalam."],
-    ["Feed-forward networks apply independent linear layers to every position.", "Jaringan feed-forward menerapkan lapisan linier independen ke setiap posisi."]
+	[
+		"hello, how are you?",
+		"halo, bagaimana kabar kamu?"
+	],
+    [
+		"what is your name?",
+		"siapa nama kamu?"
+	],
+    [
+		"i am learning generative ai.",
+		"saya sedang belajar ai generatif."
+	],
+    [
+		"this machine learning model is powerful.",
+		"model pembelajaran mesin ini sangat kuat."
+	],
+    [
+		"artificial intelligence will change the world.",
+		"kecerdasan buatan akan mengubah dunia."
+	],
+    [
+		"deep learning architectures use neural networks.",
+		"arsitektur pembelajaran mendalam menggunakan jaringan saraf."
+	],
+    [
+		"attention mechanisms help focus on words.",
+		"mekanisme perhatian membantu fokus pada kata-kata."
+	],
+    [
+		"the transformer architecture is based on self-attention.",
+		"arsitektur transformer didasarkan pada perhatian diri."
+	],
+    [
+		"pytorch is an excellent framework for deep learning.",
+		"pytorch adalah kerangka kerja yang sangat baik untuk pembelajaran mendalam."
+	],
+    [
+		"natural language processing is fun.",
+		"pemrosesan bahasa alami itu menyenangkan."
+	],
+    [
+		"can you translate this long sentence for me?",
+		"bisakah kamu menerjemahkan kalimat panjang ini untuk saya?"
+	],
+    [
+		"computers can understand human language now.",
+		"komputer dapat memahami bahasa manusia sekarang."
+	],
+    [
+		"we train models to generate realistic text.",
+		"kita melatih model untuk menghasilkan teks yang realistis."
+	],
+    [
+		"the student solves the programming exercise quickly.",
+		"mahasiswa menyelesaikan latihan pemrograman dengan cepat."
+	],
+    [
+		"python is the main language for ai development.",
+		"python adalah bahasa utama untuk pengembangan ai."
+	],
+    [
+		"recurrent neural networks process data sequentially.",
+		"jaringan saraf berulang memproses data secara berurutan."
+	],
+    [
+		"multi-head attention allows joint information processing.",
+		"perhatian multi-kepala memungkinkan pemrosesan informasi bersama."
+	],
+    [
+		"positional embeddings provide order to transformers.",
+		"sematan posisi memberikan urutan pada transformer."
+	],
+    [
+		"the encoder creates a dense representation of input.",
+		"encoder membuat representasi padat dari input."
+	],
+    [
+		"the decoder generates tokens one by one.",
+		"decoder menghasilkan token satu demi satu."
+	],
+    [
+		"we use bleu score to evaluate translation quality.",
+		"kita menggunakan skor bleu untuk mengevaluasi kualitas translasi."
+	],
+    [
+		"loss functions calculate the error of the model.",
+		"fungsi kerugian menghitung kesalahan dari model."
+	],
+    [
+		"gradient descent updates the weights during training.",
+		"penurunan gradien memperbarui bobot selama pelatihan."
+	],
+    [
+		"learning rate control is essential for convergence.",
+		"kontrol tingkat pembelajaran sangat penting untuk konvergensi."
+	],
+    [
+		"the university offers advanced computer science courses.",
+		"universitas menawarkan kursus ilmu komputer tingkat lanjut."
+	],
+    [
+		"generative models learn the underlying data distribution.",
+		"model generatif mempelajari distribusi data yang mendasarinya."
+	],
+    [
+		"large language models require massive computation power.",
+		"model bahasa besar membutuhkan daya komputasi yang masif."
+	],
+    [
+		"tokenization splits text into smaller subwords or words.",
+		"tokenisasi memecah teks menjadi subkata atau kata yang lebih kecil."
+	],
+    [
+		"vocabulary mapping converts tokens into numerical indices.",
+		"pemetaan kosakata mengubah token menjadi indeks numerik."
+	],
+    [
+		"padding guarantees uniform tensor sizes inside batches.",
+		"bantalan menjamin ukuran tensor yang seragam di dalam kelompok."
+	],
+    [
+		"the teacher explains the concept of dot product attention.",
+		"guru menjelaskan konsep perhatian produk titik."
+	],
+    [
+		"feed-forward networks project features into higher dimensions.",
+		"jaringan umpan maju memproyeksikan fitur ke dimensi yang lebih tinggi."
+	],
+    [
+		"residual connections help mitigate the vanishing gradient problem.",
+		"koneksi residual membantu mengurangi masalah gradien yang hilang."
+	],
+    [
+		"layer normalization stabilizes hidden states across layers.",
+		"normalisasi lapisan menstabilkan keadaan tersembunyi di seluruh lapisan."
+	],
+    [
+		"softmax functions normalize attention scores into weights.",
+		"fungsi softmax menormalisasi skor perhatian menjadi bobot."
+	],
+    [
+		"sequence to sequence models are widely used for translation.",
+		"model urutan ke urutan banyak digunakan untuk translasi."
+	],
+    [
+		"context vectors accumulate weighted source information.",
+		"vektor konteks mengumpulkan informasi sumber yang berbobot."
+	],
+    [
+		"bidirectional rnn captures context from both sides.",
+		"rnn dua arah menangkap konteks dari kedua sisi."
+	],
+    [
+		"the query vector matches against key vectors.",
+		"vektor kueri dicocokkan dengan vektor kunci."
+	],
+    [
+		"value vectors carry the actual semantic meanings.",
+		"vektor nilai membawa makna semantik yang sebenarnya."
+	],
+    [
+		"training neural networks requires patience and resources.",
+		"melatih jaringan saraf membutuhkan kesabaran dan sumber daya."
+	],
+    [
+		"evaluation datasets should be separate from training data.",
+		"kumpulan data evaluasi harus terpisah dari data pelatihan."
+	],
+    [
+		"overfitting happens when a model memorizes data.",
+		"overfitting terjadi ketika model menghafal data."
+	],
+    [
+		"dropout regularizes models by dropping units randomly.",
+		"dropout meregulasi model dengan menjatuhkan unit secara acak."
+	],
+    [
+		"epoch means one full pass over the dataset.",
+		"epoch berarti satu putaran penuh atas kumpulan data."
+	],
+    [
+		"mini batches improve memory optimization and efficiency.",
+		"kelompok kecil meningkatkan optimalisasi memori dan efisiensi."
+	],
+    [
+		"cross entropy loss is the standard for classification.",
+		"kerugian entropi silang adalah standar untuk klasifikasi."
+	],
+    [
+		"the test accuracy improves steady over epochs.",
+		"akurasi pengujian meningkat secara stabil selama epoch."
+	],
+    [
+		"we must evaluate our translation system qualitatively.",
+		"kita harus mengevaluasi sistem translasi kita secara kualitatif."
+	],
+    [
+		"different languages have different grammatical structures.",
+		"bahasa yang berbeda memiliki struktur tata bahasa yang berbeda."
+	],
+    [
+		"indonesian grammar does not change for tenses.",
+		"tata bahasa indonesia tidak berubah untuk waktu kalanya."
+	],
+    [
+		"english verbs alter based on singular or plural subjects.",
+		"kata kerja bahasa inggris berubah berdasarkan subjek tunggal atau jamak."
+	],
+    [
+		"translating idioms is very difficult for simple models.",
+		"menerjemahkan ungkapan sangat sulit untuk model sederhana."
+	],
+    [
+		"word embeddings project words into continuous vector spaces.",
+		"sematan kata memproyeksikan kata ke dalam ruang vektor kontinu."
+	],
+    [
+		"dense representations keep semantic similarities between words.",
+		"representasi padat menjaga kemiripan semantik antar kata."
+	],
+    [
+		"cosine similarity measures the angle between vectors.",
+		"kemiripan kosinus mengukur sudut antara vektor."
+	],
+    [
+		"high-dimensional vectors capture fine-grained relations.",
+		"vektor berdimensi tinggi menangkap hubungan yang terperinci."
+	],
+    [
+		"the network converges when the loss stops decreasing.",
+		"jaringan konvergen ketika kerugian berhenti menurun."
+	],
+    [
+		"an optimization algorithm like adam adjusts parameters.",
+		"algoritma pengoptimalan seperti adam menyesuaikan parameter."
+	],
+    [
+		"hyperparameter tuning optimizes accuracy and inference speed.",
+		"penyetelan hiperparameter mengoptimalkan akurasi dan kecepatan inferensi."
+	],
+    [
+		"attention matrices can be plotted as heatmaps.",
+		"matriks perhatian dapat diplot sebagai peta panas."
+	],
+    [
+		"diagonal attention patterns indicate word-to-word alignment.",
+		"pola perhatian diagonal menunjukkan penyelarasan kata-ke-kata."
+	],
+    [
+		"he loves reading books about artificial intelligence.",
+		"dia suka membaca buku tentang kecerdasan buatan."
+	],
+    [
+		"she writes code in python every single day.",
+		"dia menulis kode dalam python setiap hari."
+	],
+    [
+		"they are designing a new neural network architecture.",
+		"mereka sedang merancang arsitektur jaringan saraf baru."
+	],
+    [
+		"we build intelligent systems to help humanity solve problems.",
+		"kita membangun sistem cerdas untuk membantu umat manusia menyelesaikan masalah."
+	],
+    [
+		"i like to drink hot coffee while writing python code.",
+		"saya suka minum kopi hangat saat menulis kode python."
+	],
+    [
+		"the sunset in Bali looks absolutely stunning tonight.",
+		"matahari terbenam di Bali terlihat sangat memukau malam ini."
+	],
+    [
+		"we need to collect clean dataset for translation models.",
+		"kita perlu mengumpulkan kumpulan data yang bersih untuk model translasi."
+	],
+    [
+		"an open source repository allows collaboration worldwide.",
+		"repositori sumber terbuka memungkinkan kolaborasi di seluruh dunia."
+	],
+    [
+		"science progresses through iterative research and experimentation.",
+		"sains berkembang melalui penelitian dan eksperimen yang berulang."
+	],
+    [
+		"understanding mathematics is crucial for deep learning engineers.",
+		"memahami matematika sangat penting bagi insinyur pembelajaran mendalam."
+	],
+    [
+		"matrix multiplication is the core operation of transformers.",
+		"perkalian matriks adalah operasi inti dari transformer."
+	],
+    [
+		"hardware accelerators speed up tensor computations immensely.",
+		"akselerator perangkat keras mempercepat komputasi tensor secara luar biasa."
+	],
+    [
+		"cloud computing offers accessible infrastructure for developers.",
+		"komputasi awan menawarkan infrastruktur yang dapat diakses oleh pengembang."
+	],
+    [
+		"open ai models can complete creative writing challenges.",
+		"model ai terbuka dapat menyelesaikan tantangan menulis kreatif."
+	],
+    [
+		"ethics in artificial intelligence is heavily discussed now.",
+		"etika dalam kecerdasan buatan sedang banyak didiskusikan sekarang."
+	],
+    [
+		"data privacy must be guaranteed by system designers.",
+		"privasi data harus dijamin oleh perancang sistem."
+	],
+    [
+		"bias in dataset leads to unfair model predictions.",
+		"bias dalam kumpulan data menyebabkan prediksi model yang tidak adil."
+	],
+    [
+		"explainable ai helps humans understand complex models.",
+		"ai yang dapat dijelaskan membantu manusia memahami model yang kompleks."
+	],
+    [
+		"the attention map visualizes internal representations vividly.",
+		"peta perhatian memvisualisasikan representasi internal dengan jelas."
+	],
+    [
+		"this laboratory conducts advanced research in robotics.",
+		"laboratorium ini mengadakan penelitian tingkat lanjut dalam robotika."
+	],
+    [
+		"autonomous vehicles navigate roads using computer vision.",
+		"kendaraan otonom menavigasi jalan menggunakan visi komputer."
+	],
+    [
+		"speech recognition converts spoken voice into clean text.",
+		"pengenalan suara mengubah suara lisan menjadi teks bersih."
+	],
+    [
+		"reinforcement learning learns policies through rewards and punishments.",
+		"pembelajaran penguatan mempelajari kebijakan melalui hadiah dan hukuman."
+	],
+    [
+		"supervised learning requires labeled inputs and ground truth targets.",
+		"pembelajaran yang diawasi memerlukan input berlabel dan target kebenaran dasar."
+	],
+    [
+		"unsupervised learning finds hidden patterns inside unlabeled datasets.",
+		"pembelajaran tanpa pengawasan menemukan pola tersembunyi di dalam kumpulan data tanpa label."
+	],
+    [
+		"transfer learning reuses pre-trained models for new tasks.",
+		"pembelajaran transfer menggunakan kembali model pra-latih untuk tugas-tugas baru."
+	],
+    [
+		"fine tuning adapts a generic model to specific domains.",
+		"penyetelan halus menyesuaikan model generik ke domain tertentu."
+	],
+    [
+		"prompt engineering alters outputs by changing textual descriptions.",
+		"rekayasa prompt mengubah output dengan mengubah deskripsi tekstual."
+	],
+    [
+		"in-context learning allows models to learn from examples.",
+		"pembelajaran dalam konteks memungkinkan model belajar dari contoh."
+	],
+    [
+		"zero shot translation works without explicit parallel data training.",
+		"translasi tembakan nol berfungsi tanpa pelatihan data paralel yang eksplisit."
+	],
+    [
+		"few shot prompting increases generation accuracy significantly.",
+		"pemicuan beberapa tembakan meningkatkan akurasi generasi secara signifikan."
+	],
+    [
+		"the vocabulary size impacts the computational complexity directly.",
+		"ukuran kosakata berdampak langsung pada kompleksitas komputasi."
+	],
+    [
+		"masking ensures the decoder does not see future tokens.",
+		"penyembunyian memastikan decoder tidak melihat token masa depan."
+	],
+    [
+		"the query matrix is multiplied by the transposed key matrix.",
+		"matriks kueri dikalikan dengan matriks kunci yang ditransposisikan."
+	],
+    [
+		"scaling factors prevent the dot product from growing large.",
+		"faktor penskalaan mencegah produk titik tumbuh menjadi besar."
+	],
+    [
+		"teachers evaluate students through exercises and practical assignments.",
+		"guru mengevaluasi siswa melalui latihan dan tugas praktis."
+	],
+    [
+		"generative adversarial networks use two competing neural models.",
+		"jaringan permusuhan generatif menggunakan dua model saraf yang bersaing."
+	],
+    [
+		"diffusion models generate realistic high-resolution images smoothly.",
+		"model difusi menghasilkan gambar beresolusi tinggi yang realistis dengan lancar."
+	],
+    [
+		"learning architectures evolve constantly through international community efforts.",
+		"arsitektur pembelajaran berkembang secara konstan melalui upaya komunitas internasional."
+	],
+    [
+		"the final project requires students to implement custom networks.",
+		"proyek akhir mengharuskan mahasiswa untuk menerapkan jaringan kustom."
+	],
+    [
+		"Artificial intelligence is transforming how we write computer code.",
+		"Kecerdasan buatan sedang mengubah cara kita menulis kode komputer."
+	],
+    [
+		"Generative models can create realistic images from text prompts.",
+		"Model generatif dapat membuat gambar realistis dari perintah teks."
+	],
+    [
+		"The neural network requires a large corpus of text for training.",
+		"Jaringan saraf membutuhkan korpus teks yang besar untuk pelatihan."
+	],
+    [
+		"Deep learning algorithms discover complex structures in high-dimensional data.",
+		"Algoritma pembelajaran mendalam menemukan struktur kompleks dalam data berdimensi tinggi."
+	],
+    [
+		"Large language models are trained on massive internet datasets.",
+		"Model bahasa besar dilatih pada dataset internet yang sangat besar."
+	],
+    [
+		"The attention mechanism allows the model to focus on relevant words.",
+		"Mekanisme atensi memungkinkan model untuk fokus pada kata-kata yang relevan."
+	],
+    [
+		"Transformers replaced recurrent networks for natural language processing tasks.",
+		"Transformer menggantikan jaringan berulang untuk tugas pemrosesan bahasa alami."
+	],
+    [
+		"Self-attention calculates the relationship between all words in a sentence.",
+		"Self-attention menghitung hubungan antara semua kata dalam sebuah kalimat."
+	],
+    [
+		"Positional encoding injects information about the order of tokens.",
+		"Pengodean posisi menyuntikkan informasi tentang urutan token."
+	],
+    [
+		"The encoder processes the input sequence and creates a representation.",
+		"Encoder memproses urutan masukan dan membuat sebuah representasi."
+	],
+    [
+		"The decoder generates the target sequence token by token.",
+		"Decoder menghasilkan urutan target token demi token."
+	],
+    [
+		"Multi-head attention allows the model to jointly attend to information.",
+		"Multi-head attention memungkinkan model untuk secara bersamaan memperhatikan informasi."
+	],
+    [
+		"We use dropout to prevent the model from overfitting the data.",
+		"Kami menggunakan dropout to mencegah model mengalami overfitting pada data."
+	],
+    [
+		"The learning rate determines the step size during optimization.",
+		"Tingkat pembelajaran menentukan ukuran langkah selama optimasi."
+	],
+    [
+		"Gradient descent minimizes the loss function during neural network training.",
+		"Gradient descent meminimalkan fungsi kerugian selama pelatihan jaringan saraf."
+	],
+    [
+		"Stochastic gradient descent updates parameters using a small batch.",
+		"Stochastic gradient descent memperbarui parameter menggunakan batch kecil."
+	],
+    [
+		"The Adam optimizer dynamically adjusts the learning rate for parameters.",
+		"Optimizer Adam menyesuaikan tingkat pembelajaran secara dinamis untuk parameter."
+	],
+    [
+		"Cross-entropy loss measures the performance of a classification model.",
+		"Kerugian cross-entropy mengukur kinerja model klasifikasi."
+	],
+    [
+		"Perplexity evaluates how well a probability distribution predicts a sample.",
+		"Perpleksitas mengevaluasi seberapa baik distribusi probabilitas memprediksi suatu sampel."
+	],
+    [
+		"The BLEU score evaluates the quality of machine-translated text.",
+		"Skor BLEU mengevaluasi kualitas teks hasil terjemahan mesin."
+	],
+    [
+		"Tokenization splits a continuous string of text into individual units.",
+		"Tokenisasi memecah string teks berkelanjutan menjadi unit-unit individu."
+	],
+    [
+		"Byte-pair encoding is a popular subword tokenization algorithm.",
+		"Pengodean byte-pair adalah algoritma tokenisasi subkata yang populer."
+	],
+    [
+		"The vocabulary size determines the number of unique tokens.",
+		"Ukuran kosakata menentukan jumlah token unik."
+	],
+    [
+		"Out-of-vocabulary words are mapped to an unknown token symbol.",
+		"Kata-kata di luar kosakata dipetakan ke simbol token yang tidak diketahui."
+	],
+    [
+		"Padding tokens ensure that all sequences in a batch have equal length.",
+		"Token padding memastikan bahwa semua urutan dalam satu batch memiliki panjang yang sama."
+	],
+    [
+		"The sequence-to-sequence model maps an input sequence to an output sequence.",
+		"Model sequence-to-sequence memetakan urutan masukan ke urutan keluaran."
+	],
+    [
+		"Recurrent neural networks process text sequentially from left to right.",
+		"Jaringan saraf berulang memproses teks secara berurutan dari kiri ke kanan."
+	],
+    [
+		"Long short-term memory networks solve the vanishing gradient problem.",
+		"Jaringan memori jangka pendek panjang memecahkan masalah gradien menghilang."
+	],
+    [
+		"Gated recurrent units are a simpler variant of standard LSTMs.",
+		"Gated recurrent units adalah varian yang lebih sederhana dari LSTM standar."
+	],
+    [
+		"Teacher forcing uses the actual target output during training iterations.",
+		"Teacher forcing menggunakan keluaran target yang sebenarnya selama iterasi pelatihan."
+	],
+    [
+		"Greedy decoding selects the token with the highest probability at each step.",
+		"Greedy decoding memilih token dengan probabilitas tertinggi pada setiap langkah."
+	],
+    [
+		"Beam search expands the top hypothesis tracks to find better sequences.",
+		"Beam search memperluas jalur hipotesis teratas untuk menemukan urutan yang lebih baik."
+	],
+    [
+		"Temperature scaling controls the randomness of the generated text output.",
+		"Skala temperatur mengontrol keacakan dari keluaran teks yang dihasilkan."
+	],
+    [
+		"Top-k sampling restricts the next token choices to the most likely options.",
+		"Sampling top-k membatasi pilihan token berikutnya ke opsi yang paling mungkin."
+	],
+    [
+		"Top-p sampling selects tokens from a dynamic nucleus of probability.",
+		"Sampling top-p memilih token dari nukleus probabilitas yang dinamis."
+	],
+    [
+		"Pre-training exposes a large model to unlabeled text data.",
+		"Pra-pelatihan memaparkan model besar pada data teks tanpa label."
+	],
+    [
+		"Fine-tuning adapts a pre-trained model to a specific downstream task.",
+		"Fine-tuning menyesuaikan model pra-latih untuk tugas hilir tertentu."
+	],
+    [
+		"Prompt engineering is the art of structuring text inputs for models.",
+		"Prompt engineering adalah seni menyusun masukan teks untuk model."
+	],
+    [
+		"Few-shot prompting provides examples of the target task inside the prompt.",
+		"Few-shot prompting menyediakan contoh tugas target di dalam prompt."
+	],
+    [
+		"Zero-shot learning tests the model on a task without any examples.",
+		"Pembelajaran zero-shot menguji model pada suatu tugas tanpa contoh apa pun."
+	],
+    [
+		"Reinforcement learning from human feedback aligns models with human preferences.",
+		"Pembelajaran penguatan dari umpan balik manusia menyelaraskan model dengan preferensi manusia."
+	],
+    [
+		"Direct preference optimization provides a simpler alternative to classic reinforcement learning.",
+		"Optimasi preferensi langsung memberikan alternatif yang lebih sederhana untuk pembelajaran penguatan klasik."
+	],
+    [
+		"Parameter-efficient fine-tuning reduces the cost of adapting large models.",
+		"Fine-tuning efisien parameter mengurangi biaya adaptasi model besar."
+	],
+    [
+		"Low-rank adaptation injects trainable rank decomposition matrices into layers.",
+		"Adaptasi pangkat rendah menyuntikkan matriks dekomposisi pangkat yang dapat dilatih ke dalam lapisan."
+	],
+    [
+		"Quantization compresses neural network weights into lower precision formats.",
+		"Kuantisasi mengompresi bobot jaringan saraf ke dalam format presisi yang lebih rendah."
+	],
+    [
+		"Model distillation transfers knowledge from a large model to a smaller one.",
+		"Distilasi model mentransfer pengetahuan dari model besar ke model yang lebih kecil."
+	],
+    [
+		"Retrieval-augmented generation connects language models to external data sources.",
+		"Retrieval-augmented generation menghubungkan model bahasa ke sumber data eksternal."
+	],
+    [
+		"Vector databases store document embeddings for fast similarity search queries.",
+		"Database vektor menyimpan embedding dokumen untuk kueri pencarian kemiripan yang cepat."
+	],
+    [
+		"Cosine similarity measures the angle between two multi-dimensional vectors.",
+		"Kemiripan kosinus mengukur sudut antara dua vektor multi-dimensi."
+	],
+    [
+		"Semantic search understands the intent and contextual meaning of queries.",
+		"Pencarian semantik memahami maksud dan makna kontekstual dari kueri."
+	],
+    [
+		"Hallucination occurs when a generative model creates incorrect facts.",
+		"Halusinasi terjadi ketika model generatif membuat fakta yang salah."
+	],
+    [
+		"Bias in training data can lead to unfair model predictions.",
+		"Bias dalam data pelatihan dapat menyebabkan prediksi model yang tidak adil."
+	],
+    [
+		"Ethical AI development requires transparency and careful data curation.",
+		"Pengembangan AI yang etis memerlukan transparansi dan kurasi data yang cermat."
+	],
+    [
+		"Data augmentation artificially increases the size of a training dataset.",
+		"Augmentasi data secara artifisial meningkatkan ukuran dataset pelatihan."
+	],
+    [
+		"Transfer learning applies knowledge from one domain to another domain.",
+		"Transfer learning menerapkan pengetahuan dari satu domain ke domain lainnya."
+	],
+    [
+		"Context window determines the maximum number of tokens a model reads.",
+		"Jendela konteks menentukan jumlah maksimum token yang dibaca oleh model."
+	],
+    [
+		"Linear layers transform features using matrix multiplication and biases.",
+		"Lapisan linier mengubah fitur menggunakan perkalian matriks dan bias."
+	],
+    [
+		"Activation functions introduce non-linear properties into the neural network.",
+		"Fungsi aktivasi memperkenalkan sifat non-linier ke dalam jaringan saraf."
+	],
+    [
+		"The softmax function converts raw logits into a probability distribution.",
+		"Fungsi softmax mengubah logit mentah menjadi distribusi probabilitas."
+	],
+    [
+		"Layer normalization stabilizes the hidden states across training batches.",
+		"Normalisasi lapisan menstabilkan keadaan tersembunyi di seluruh batch pelatihan."
+	],
+    [
+		"Residual connections allow gradients to flow directly through deep networks.",
+		"Koneksi residual memungkinkan gradien mengalir secara langsung melalui jaringan yang dalam."
+	],
+    [
+		"Feed-forward networks apply independent linear layers to every position.",
+		"Jaringan feed-forward menerapkan lapisan linier independen ke setiap posisi."
+	],
+    [
+        "Supervised learning algorithms map input features to labeled outputs.",
+        "Algoritma pembelajaran terawasi memetakan fitur masukan ke keluaran berlabel."
+    ],
+    [
+        "Unsupervised models cluster unlabeled data based on structural patterns.",
+        "Model tanpa pengawasan mengelompokkan data tanpa label berdasarkan pola struktural."
+    ],
+    [
+        "Reinforcement learning agents optimize policies through cumulative rewards.",
+        "Agen pembelajaran penguatan mengoptimalkan kebijakan melalui penghargaan kumulatif."
+    ],
+    [
+        "Backpropagation distributes error gradients backward through hidden neural layers.",
+        "Backpropagation mendistribusikan gradien kesalahan mundur melalui lapisan saraf tersembunyi."
+    ],
+    [
+        "Convolutional neural networks extract local spatial features from digital images.",
+        "Jaringan saraf konvolusional mengekstrak fitur spasial lokal dari gambar digital."
+    ],
+    [
+        "Recurrent units maintain internal states to capture temporal dependencies.",
+        "Unit berulang mempertahankan keadaan internal untuk menangkap dependensi temporal."
+    ],
+    [
+        "Vanishing gradients slow down parameter updates in deep network architectures.",
+        "Gradien menghilang memperlambat pembaruan parameter dalam arsitektur jaringan yang dalam."
+    ],
+    [
+        "Exploding gradients cause numerical overflow during optimization steps.",
+        "Gradien meledak menyebabkan luapan numerik selama langkah optimasi."
+    ],
+    [
+        "Dropout randomly deactivates neurons to improve model generalization ability.",
+        "Dropout menonaktifkan neuron secara acak untuk meningkatkan kemampuan generalisasi model."
+    ],
+    [
+        "Weight initialization prevents activation saturation in early training epochs.",
+        "Inisialisasi bobot mencegah kejenuhan aktivasi pada epoch pelatihan awal."
+    ],
+    [
+        "Stochastic gradient descent calculates parameters using mini batch iterations.",
+        "Stochastic gradient descent menghitung parameter menggunakan iterasi batch kecil."
+    ],
+    [
+        "The Adam optimizer dynamically scales learning rates for every weight.",
+        "Optimizer Adam secara dinamis menskalakan tingkat pembelajaran untuk setiap bobot."
+    ],
+    [
+        "Cross entropy loss measures probability discrepancies for classification tasks.",
+        "Kerugian entropi silang mengukur ketidaksesuaian probabilitas untuk tugas klasifikasi."
+    ],
+    [
+        "Perplexity measures how effectively language models predict evaluation sentences.",
+        "Perpleksitas mengukur seberapa efektif model bahasa memprediksi kalimat evaluasi."
+    ],
+    [
+        "Byte pair encoding extracts high frequency subwords into the vocabulary.",
+        "Pengodean byte pair mengekstrak subkata berfrekuensi tinggi ke dalam kosakata."
+    ],
+    [
+        "Out of vocabulary words generate unknown tokens during inference steps.",
+        "Kata-kata di luar kosakata menghasilkan token yang tidak diketahui selama langkah inferensi."
+    ],
+    [
+        "Padding constants maintain consistent tensor lengths across batch matrices.",
+        "Konstanta padding menjaga panjang tensor yang konsisten di seluruh matriks batch."
+    ],
+    [
+        "Self attention formulas compute dot products between queries and keys.",
+        "Rumus self attention menghitung produk titik antara query dan key."
+    ],
+    [
+        "Scaling factors prevent dot product operations from growing excessively.",
+        "Faktor penskalaan mencegah operasi produk titik tumbuh secara berlebihan."
+    ],
+    [
+        "Causal masking blocks the decoder from accessing future token states.",
+        "Masking kausal memblokir decoder dari mengakses keadaan token di masa depan."
+    ],
+    [
+        "Positional encodings append geometric coordinate data to word embeddings.",
+        "Pengodean posisi menambahkan data koordinat geometris ke embedding kata."
+    ],
+    [
+        "Layer normalization stabilizes hidden representations across intermediate steps.",
+        "Normalisasi lapisan menstabilkan representasi tersembunyi di seluruh langkah perantara."
+    ],
+    [
+        "Residual connections propagate original values directly to subsequent layers.",
+        "Koneksi residual menyebarkan nilai asli secara langsung ke lapisan berikutnya."
+    ],
+    [
+        "Feed forward sublayers apply linear transformations to individual positions.",
+        "Sublapisan feed forward menerapkan transformasi linier ke posisi masing-masing."
+    ],
+    [
+        "Autoregressive decoding models predict sequential outputs step by step.",
+        "Model decoding autoregresif memprediksi keluaran berurutan langkah demi langkah."
+    ],
+    [
+        "Beam search tracking maintains multiple translation hypotheses in memory.",
+        "Pelacakan beam search mempertahankan beberapa hipotesis terjemahan dalam memori."
+    ],
+    [
+        "Greedy decoding simply selects the highest probability token immediately.",
+        "Greedy decoding hanya memilih token dengan probabilitas tertinggi secara langsung."
+    ],
+    [
+        "Temperature adjustments scale logits to control text generation creativity.",
+        "Penyesuaian temperatur menskalakan logit untuk mengontrol kreativitas generasi teks."
+    ],
+    [
+        "Nucleus sampling extracts candidates from top dynamic probability spaces.",
+        "Sampling nukleus mengekstrak kandidat dari ruang probabilitas dinamis teratas."
+    ],
+    [
+        "Pre training exposes network weights to massive raw text datasets.",
+        "Pra-pelatihan memaparkan bobot jaringan ke dataset teks mentah yang sangat besar."
+    ],
+    [
+        "Fine tuning recalibrates internal parameters for narrower domain targets.",
+        "Fine tuning mengkalibrasi ulang parameter internal untuk target domain yang lebih sempit."
+    ],
+    [
+        "Prompt engineering configures structural text instructions for better outputs.",
+        "Prompt engineering mengonfigurasi instruksi teks struktural untuk keluaran yang lebih baik."
+    ],
+    [
+        "In context learning observes task instructions directly from input samples.",
+        "Pembelajaran dalam konteks mengamati instruksi tugas secara langsung dari sampel masukan."
+    ],
+    [
+        "Zero shot evaluation checks accuracy without showing training examples.",
+        "Evaluasi zero shot memeriksa akurasi tanpa menampilkan contoh pelatihan."
+    ],
+    [
+        "Few shot methods insert multiple demonstration pairs into the template.",
+        "Metode few shot memasukkan beberapa pasang demonstrasi ke dalam templat."
+    ],
+    [
+        "Reinforcement learning from human feedback penalizes toxic text generation.",
+        "Pembelajaran penguatan dari umpan balik manusia memberikan penalti pada generasi teks beracun."
+    ],
+    [
+        "Direct preference optimization bypasses complex reward model training steps.",
+        "Optimasi preferensi langsung melewati langkah pelatihan model penghargaan yang kompleks."
+    ],
+    [
+        "Low rank adaptation restricts parameter modifications to compact matrices.",
+        "Adaptasi pangkat rendah membatasi modifikasi parameter pada matriks kompak."
+    ],
+    [
+        "Quantization downscales high precision numeric weights into tiny integers.",
+        "Kuantisasi menurunkan skala bobot numerik presisi tinggi menjadi bilangan bulat kecil."
+    ],
+    [
+        "Model distillation compresses large neural knowledge into smaller models.",
+        "Distilasi model mengompresi pengetahuan saraf yang besar ke dalam model yang lebih kecil."
+    ],
+    [
+        "Retrieval augmented generation pulls factual knowledge from external sources.",
+        "Retrieval augmented generation menarik pengetahuan faktual dari sumber eksternal."
+    ],
+    [
+        "Vector databases index document embeddings for rapid semantic lookup.",
+        "Database vektor mengindeks embedding dokumen untuk pencarian semantik yang cepat."
+    ],
+    [
+        "Cosine similarity formulas calculate angular distances between multidimensional states.",
+        "Rumus kemiripan kosinus menghitung jarak sudut antara keadaan multidimensi."
+    ],
+    [
+        "Semantic search systems capture intent rather than literal keyword matches.",
+        "Sistem pencarian semantik menangkap maksud daripada pencocokan kata kunci literal."
+    ],
+    [
+        "Hallucination patterns emerge when generative text lacks factual boundaries.",
+        "Pola halusinasi muncul ketika teks generatif tidak memiliki batasan faktual."
+    ],
+    [
+        "Data augmentation synthetically multiplies training samples to improve generalization.",
+        "Augmentasi data secara sintetis melipatgandakan sampel pelatihan untuk meningkatkan generalisasi."
+    ],
+    [
+        "Transfer learning principles reuse deep features across different domains.",
+        "Prinsip transfer learning menggunakan kembali fitur-fitur mendalam di berbagai domain."
+    ],
+    [
+        "Context window sizes dictate the ultimate threshold of processed tokens.",
+        "Ukuran jendela konteks mendikte ambang batas akhir dari token yang diproses."
+    ],
+    [
+        "Activation functions introduce crucial mathematical nonlinearities to deep layers.",
+        "Fungsi aktivasi memperkenalkan non-linearitas matematika yang krusial ke lapisan dalam."
+    ],
+    [
+        "The softmax operator transforms continuous logits into normalized probabilities.",
+        "Operator softmax mengubah logit berkelanjutan menjadi probabilitas yang dinormalisasi."
+    ],
+    [
+        "Generative AI is the main subject of our study this term.",
+        "AI generatif menjadi subjek utama pembelajaran kami istilah ini."
+    ],
+    [
+        "Creating transformer models from scratch is highly enjoyed by the students.",
+        "Membuat model transformer dari awal sangat dinikmati oleh para mahasiswa."
+    ],
+    [
+        "Source sentences are converted into the target language by neural machine translation.",
+        "Kalimat sumber diubah ke dalam bahasa target oleh terjemahan mesin saraf."
+    ],
+    [
+        "Dynamic weights are assigned to each word via attention mechanisms.",
+        "Bobot dinamis diberikan ke setiap kata melalui mekanisme atensi."
+    ],
+    [
+        "Automatic computation of computational graphs is supported by PyTorch tools.",
+        "Komputasi otomatis dari grafik komputasi didukung oleh alat PyTorch."
+    ],
+    [
+        "GPU accelerators are vital for handling parallel processing in deep learning.",
+        "Akselerator GPU sangat penting untuk menangani pemrosesan paralel dalam pembelajaran mendalam."
+    ],
+    [
+        "The overall shape of positional embeddings depends on the sequence length.",
+        "Bentuk keseluruhan dari embedding posisi tergantung pada panjang urutan."
+    ],
+    [
+        "Semantic context of the input text is stored within encoder vectors.",
+        "Konteks semantik dari teks masukan disimpan di dalam vektor encoder."
+    ],
+    [
+        "Tokens are produced autoregressively one after another by the decoder.",
+        "Token dihasilkan secara autoregresif satu demi satu oleh decoder."
+    ],
+    [
+        "The BLEU score metric is utilized to assess final system performance.",
+        "Metrik skor BLEU digunakan untuk menilai kinerja sistem akhir."
+    ],
+    [
+        "Multiple projections are processed simultaneously by the multi-head layer.",
+        "Beberapa proyeksi diproses secara bersamaan oleh lapisan multi-head."
+    ],
+    [
+        "The model is restricted from observing upcoming tokens through masking.",
+        "Model dibatasi untuk mengamati token yang akan datang melalui masking."
+    ],
+    [
+        "Low cross-entropy loss values are achieved by training models for thirty epochs.",
+        "Nilai kerugian cross-entropy yang rendah dicapai dengan melatih model selama tiga puluh epoch."
+    ],
+    [
+        "Geometric heatmaps can be used to display attention weights visually.",
+        "Peta panas geometris dapat digunakan untuk menampilkan bobot atensi secara visual."
+    ],
+    [
+        "How well models manage long range dependencies is tested by this long sentence.",
+        "Seberapa baik model mengelola dependensi jarak jauh diuji oleh kalimat panjang ini."
+    ],
+    [
+        "Modern language models can be trained without difficulty by an entry level developer.",
+        "Model bahasa modern dapat dilatih tanpa kesulitan oleh seorang pengembang tingkat pemula."
+    ],
+    [
+        "Language sequences are handled word by word using recurrent architectures.",
+        "Urutan bahasa ditangani kata demi kata menggunakan arsitektur berulang."
+    ],
+    [
+        "Internal states are transformed into raw logits by the linear layer.",
+        "Keadaan internal diubah menjadi logit mentah oleh lapisan linier."
+    ],
+    [
+        "Calculated gradients are used during optimization to update parameters.",
+        "Gradien yang dihitung digunakan selama optimasi untuk memperbarui parameter."
+    ],
+    [
+        "A variety of test samples should be used to verify translation accuracy.",
+        "Berbagai sampel uji harus digunakan untuk memverifikasi akurasi terjemahan."
+    ],
+    [
+        "The way we develop computer code is being altered by artificial intelligence.",
+        "Cara kita mengembangkan kode komputer sedang diubah oleh kecerdasan buatan."
+    ],
+    [
+        "Text prompts can be transformed into realistic images by generative models.",
+        "Perintah teks dapat diubah menjadi gambar realistis oleh model generatif."
+    ],
+    [
+        "Training a neural network requires the collection of a large text corpus.",
+        "Melatih jaringan saraf memerlukan pengumpulan korpus teks yang besar."
+    ],
+    [
+        "Complex structures inside high-dimensional data are uncovered by deep learning algorithms.",
+        "Struktur kompleks di dalam data berdimensi tinggi diungkap oleh algoritma pembelajaran mendalam."
+    ],
+    [
+        "Massive datasets from the internet are used to train large language models.",
+        "Dataset besar dari internet digunakan untuk melatih model bahasa besar."
+    ],
+    [
+        "The model can concentrate on pertinent words due to the attention mechanism.",
+        "Model dapat berkonsentrasi pada kata-kata yang relevan karena mekanisme atensi."
+    ],
+    [
+        "Recurrent networks were replaced by transformers for natural language processing duties.",
+        "Jaringan berulang digantikan oleh transformer untuk tugas pemrosesan bahasa alami."
+    ],
+    [
+        "The associations between all words in a sentence are evaluated by self-attention.",
+        "Asosiasi antara semua kata dalam sebuah kalimat dievaluasi oleh self-attention."
+    ],
+    [
+        "Information regarding token order is injected via positional encoding.",
+        "Informasi mengenai urutan token disuntikkan melalui pengodean posisi."
+    ],
+    [
+        "A dense representation is created by the encoder after processing the input sequence.",
+        "Sebuah representasi padat dibuat oleh encoder setelah memproses urutan masukan."
+    ],
+    [
+        "The decoder is responsible for generating the target sequence token by token.",
+        "Decoder bertanggung jawab untuk menghasilkan urutan target token demi token."
+    ],
+    [
+        "Information can be attended to jointly by the model using multi-head attention.",
+        "Informasi dapat diperhatikan secara bersamaan oleh model menggunakan multi-head attention."
+    ],
+    [
+        "Overfitting the data is prevented by incorporating dropout into the model.",
+        "Overfitting pada data dicegah dengan memasukkan dropout ke dalam model."
+    ],
+    [
+        "The step size taken during optimization is controlled by the learning rate.",
+        "Ukuran langkah yang diambil selama optimasi dikontrol oleh tingkat pembelajaran."
+    ],
+    [
+        "The loss function is minimized by gradient descent during neural network training.",
+        "Fungsi kerugian diminimalkan oleh gradient descent selama pelatihan jaringan saraf."
+    ],
+    [
+        "Parameters are updated in small batches when using stochastic gradient descent.",
+        "Parameter diperbarui dalam batch kecil saat menggunakan stochastic gradient descent."
+    ],
+    [
+        "Learning rates for internal parameters are adjusted dynamically by the Adam optimizer.",
+        "Tingkat pembelajaran untuk parameter internal disesuaikan secara dinamis oleh optimizer Adam."
+    ],
+    [
+        "The classification model performance is directly measured by cross-entropy loss.",
+        "Kinerja model klasifikasi diukur secara langsung oleh kerugian cross-entropy."
+    ],
+    [
+        "How accurately a probability distribution predicts a sample is evaluated by perplexity.",
+        "Seberapa akurat distribusi probabilitas memprediksi suatu sampel dievaluasi oleh perpleksitas."
+    ],
+    [
+        "Machine-translated text quality is assessed using the BLEU score metric.",
+        "Kualitas teks hasil terjemahan mesin dinilai menggunakan metrik skor BLEU."
+    ],
+    [
+        "A continuous string of text is broken down into individual units by tokenization.",
+        "String teks berkelanjutan dipecah menjadi unit-unit individu oleh tokenisasi."
+    ],
+    [
+        "A widely used subword tokenization method is byte-pair encoding.",
+        "Metode tokenisasi subkata yang banyak digunakan adalah pengodean byte-pair."
+    ],
+    [
+        "The number of unique tokens is decided by the vocabulary size.",
+        "Jumlah token unik ditentukan oleh ukuran kosakata."
+    ],
+    [
+        "Unknown token symbols are assigned to words that are out-of-vocabulary.",
+        "Simbol token yang tidak diketahui diberikan pada kata-kata yang berada di luar kosakata."
+    ],
+    [
+        "All sequences within a batch are forced to have equal length using padding tokens.",
+        "Semua urutan dalam satu batch dipaksa memiliki panjang yang sama menggunakan token padding."
+    ],
+    [
+        "An input sequence is mapped to an output sequence by the sequence-to-sequence model.",
+        "Urutan masukan dipetakan ke urutan keluaran oleh model sequence-to-sequence."
+    ],
+    [
+        "Text is processed sequentially from left to right by recurrent neural networks.",
+        "Teks diproses secara berurutan dari kiri ke kanan oleh jaringan saraf berulang."
+    ],
+    [
+        "The vanishing gradient problem is resolved by long short-term memory networks.",
+        "Masalah gradien menghilang diselesaikan oleh jaringan memori jangka pendek panjang."
+    ],
+    [
+        "Standard LSTMs have a simpler alternative known as gated recurrent units.",
+        "LSTM standar memiliki alternatif yang lebih sederhana yang dikenal sebagai gated recurrent units."
+    ],
+    [
+        "Actual target outputs are fed during training iterations via teacher forcing.",
+        "Keluaran target yang sebenarnya dimasukkan selama iterasi pelatihan melalui teacher forcing."
+    ]
 ]
